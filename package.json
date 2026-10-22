@@ -1,0 +1,13 @@
+{
+  "name": "pokeio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node tools/fetch-data.mjs && node tools/fetch-cries.mjs",
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

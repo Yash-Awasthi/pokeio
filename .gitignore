@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+data/
+public/sprites/
+public/items/
+public/cries/
+.fetch.log
